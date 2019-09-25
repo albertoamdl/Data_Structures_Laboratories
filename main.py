@@ -2,7 +2,7 @@ import collections
 
 # This is all I have for now, I'm just working on reading the file and storing it in a list. After that, everything should be simple
 
-
+jjjj
 class Node(object):
     item = -1
     next = None
