@@ -21,7 +21,7 @@ class AVL:
          self.root = root
 
 
-
+ # Gets tree hieght
     @staticmethod    
     def get_TreeHeight(root):     
         if root is None:
@@ -37,7 +37,7 @@ class AVL:
 
 
 
-
+ # Updates items to AVL 
     @staticmethod        
     def AVL_Update(nodeData):
         leftH = -1
@@ -52,7 +52,7 @@ class AVL:
 
 
 
-
+ # Gets hieght of tree
     @staticmethod
     def getHeight(root):
         H = root.get_TreeHeight(root)
@@ -414,6 +414,10 @@ def BSTSearch(word):
   if c.root.item < word:
 
       return c.BSTSearch(c.root.right,word)
+
+  if c.root.item > word:
+
+      return c.BSTSearch(c.root.left,word)
 
   return False# if not false
             
