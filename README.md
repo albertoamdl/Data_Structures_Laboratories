@@ -2,16 +2,16 @@ Welcome to my Data Structures Folder!
 
 Here you will find all of the labs I have previously done in this class.
 
-Lab 1-
+Lab 1-  
 I was asked to analyze 100 records containing usernames, salt values, and hashed passwords. My task was to create a python     program that would read the txt file containing the data, analyze and compare each hashed password with the correct one. All methods had to be done recursivly.
 
-Lab 2- 
+Lab 2-  
 Task was to concatenate two data files that contain at least 4k each and abide a set of instructions. Every time you read a password from the file, check (using a loop) if that password has already been added to the linked list. That is, you need to traverse the linked list to see if that password has been added already. If the password is already in your linked list, update the number of times the password has been seen in the file. Otherwise, add a the password to the linked list.
 
-Lab 3- 
+Lab 3-  
 Write another function called count_anagrams that does not produce output, but returns the number of anagrams that a given word has. The method uses a data structure called engish_words to determine if a given anagram is a valid word in the English language. You can think of engish_words as a container of all the words in the English language. We will implement this data structure using a binary search tree. To populate engish_words, we will use a text file called words.txt that contains 354,984 English words. You can download words.txt from the following URL: https://github.com/dwyl/english-words/. 
 
-Lab 4- 
+Lab 4-  
 Write another function called count_anagrams that does not produce output, but returns the number of anagrams that a given word has. But, this lab is done with a Red-Black tree
 
 Lab 5-  
